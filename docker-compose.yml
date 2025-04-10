@@ -35,10 +35,10 @@ services:
     ports:
       - "8386:3306" 
     environment:
-      MYSQL_DATABASE: pipra #database name
-      MYSQL_ROOT_PASSWORD: pipra_root #database root password
-      MYSQL_PASSWORD: pipra_pass #database password
-      MYSQL_USER: pipra_sajid #database user
+      MYSQL_DATABASE: pipra 
+      MYSQL_ROOT_PASSWORD: pipra_root 
+      MYSQL_PASSWORD: pipra_pass 
+      MYSQL_USER: pipra_sajid 
     volumes:
       - pipra_data:/var/lib/mysql
     networks:
