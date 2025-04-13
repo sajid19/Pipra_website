@@ -30,9 +30,7 @@
     <img height="50" width="80" class="position-absolute top-50 start-50 translate-middle" src="{{asset('frontend/img/icons/icon-1.png')}}" alt="Icon">
     
 </div>
-<!-- Spinner End -->
 
-<!-- Navbar Start -->
 <nav style="font-family: 'NexaLight', sans-serif !important;" class="navbar navbar-expand-md bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
     <a href="{{route('home')}}" class="navbar-brand ms-4 ms-lg-0">
         <h1 class="text-primary m-0 ml-5">
